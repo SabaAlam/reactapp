@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pr_p1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.pr_same{
+    font-size: .8rem;
+}

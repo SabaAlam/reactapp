@@ -1,0 +1,27 @@
+body{
+    overflow-x: hidden;
+}
+.footer>ul>li{
+    position: relative;
+    }
+    .footer>ul>li::after{
+        position:absolute;
+        content: "";
+        width: 0%;
+        height: 2px;
+        left: 0%;
+        bottom:0px;
+        background-color: #9F2A48;
+        transition-duration: 1s;
+        }
+        .footer>ul>li:hover::after{
+            width: 33%;
+        }
+        .footer>ul>li:hover{
+            color: #9F2A48;
+    
+        }
+        .h4{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
